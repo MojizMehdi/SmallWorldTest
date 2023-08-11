@@ -1,0 +1,379 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 10,
+        "name": "Successful login using valid account",
+        "description": "",
+        "id": "as-a-user,-i-want-to-test-valid-and-invalid-login-scenario;successful-login-using-valid-account;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "User has arrived on Swag Labs website",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "Submit email using \"standard_user\" and password using \"secret_sauce\"",
+            "match": {},
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "Success login to home page with displaying cart button",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@LoginSuccessful"
+          },
+          {
+            "line": 3,
+            "name": "@ValidCase"
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "Failed login using invalid account",
+        "description": "",
+        "id": "as-a-user,-i-want-to-test-valid-and-invalid-login-scenario;failed-login-using-invalid-account;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "User has arrived on Swag Labs website",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "Submit email using \"standard\" and password using \"123456\"",
+            "match": {},
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "Login failed with displaying error message",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@LoginFailed"
+          },
+          {
+            "line": 12,
+            "name": "@InvalidCase"
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "Failed login using invalid account",
+        "description": "",
+        "id": "as-a-user,-i-want-to-test-valid-and-invalid-login-scenario;failed-login-using-invalid-account;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "User has arrived on Swag Labs website",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "Submit email using \"\" and password using \"1234qw\"",
+            "match": {},
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "Login failed with displaying error message",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@LoginFailed"
+          },
+          {
+            "line": 12,
+            "name": "@InvalidCase"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Failed login using invalid account",
+        "description": "",
+        "id": "as-a-user,-i-want-to-test-valid-and-invalid-login-scenario;failed-login-using-invalid-account;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "User has arrived on Swag Labs website",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "Submit email using \"akutest@email.com\" and password using \"\"",
+            "match": {},
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "Login failed with displaying error message",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@LoginFailed"
+          },
+          {
+            "line": 12,
+            "name": "@InvalidCase"
+          }
+        ]
+      }
+    ],
+    "name": "As a user, I want to test valid and Invalid login scenario",
+    "description": "",
+    "id": "as-a-user,-i-want-to-test-valid-and-invalid-login-scenario",
+    "keyword": "Feature",
+    "uri": "LoginTest.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 20,
+        "name": "Successful order checkout test",
+        "description": "",
+        "id": "as-a-user,-i-want-to-test-checkout-order;successful-order-checkout-test;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "User has arrived on Swag Labs website",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "Submit email using \"standard_user\" and password using \"secret_sauce\"",
+            "match": {},
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "Success login to home page with displaying cart button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "Add Sauce Labs Backpack into cart",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "Add Sauce Labs Bike Light into cart",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "I am clicking on cart Button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "I am clicking on Check Out Button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "I send First Name \"Test\" on information page",
+            "match": {},
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "I send Last Name \"TestTest\" on information page",
+            "match": {},
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "I send Postal Code \"12345\" on information page",
+            "match": {},
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "I am clicking on Continue Button on information page",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "Verify Checkout Overview page",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "Success Check out page with message displayed \"Your order has been dispatched, and will arrive just as fast as the pony can get there!\"",
+            "match": {},
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@ValidCase"
+          },
+          {
+            "line": 3,
+            "name": "@CheckOutSuccessful"
+          }
+        ]
+      }
+    ],
+    "name": "As a user, I want to test checkout order",
+    "description": "",
+    "id": "as-a-user,-i-want-to-test-checkout-order",
+    "keyword": "Feature",
+    "uri": "OrderCheckout.feature"
+  }
+]

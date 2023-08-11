@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="5" tests="5" time="0">
+    <testcase classname="As a user, I want to test valid and Invalid login scenario" name="Successful login using valid account" time="0">
+        <skipped><![CDATA[Given User has arrived on Swag Labs website.................................undefined
+When Submit email using "standard_user" and password using "secret_sauce"...undefined
+Then Success login to home page with displaying cart button.................undefined
+]]></skipped>
+    </testcase>
+    <testcase classname="As a user, I want to test valid and Invalid login scenario" name="Failed login using invalid account" time="0">
+        <skipped><![CDATA[Given User has arrived on Swag Labs website.................................undefined
+When Submit email using "standard" and password using "123456"..............undefined
+Then Login failed with displaying error message.............................undefined
+]]></skipped>
+    </testcase>
+    <testcase classname="As a user, I want to test valid and Invalid login scenario" name="Failed login using invalid account 2" time="0">
+        <skipped><![CDATA[Given User has arrived on Swag Labs website.................................undefined
+When Submit email using "" and password using "1234qw"......................undefined
+Then Login failed with displaying error message.............................undefined
+]]></skipped>
+    </testcase>
+    <testcase classname="As a user, I want to test valid and Invalid login scenario" name="Failed login using invalid account 3" time="0">
+        <skipped><![CDATA[Given User has arrived on Swag Labs website.................................undefined
+When Submit email using "akutest@email.com" and password using ""...........undefined
+Then Login failed with displaying error message.............................undefined
+]]></skipped>
+    </testcase>
+    <testcase classname="As a user, I want to test checkout order" name="Successful order checkout test" time="0">
+        <skipped><![CDATA[Given User has arrived on Swag Labs website.................................undefined
+When Submit email using "standard_user" and password using "secret_sauce"...undefined
+And Success login to home page with displaying cart button..................undefined
+And Add Sauce Labs Backpack into cart.......................................undefined
+And Add Sauce Labs Bike Light into cart.....................................undefined
+And I am clicking on cart Button............................................undefined
+And I am clicking on Check Out Button.......................................undefined
+And I send First Name "Test" on information page............................undefined
+And I send Last Name "TestTest" on information page.........................undefined
+And I send Postal Code "12345" on information page..........................undefined
+And I am clicking on Continue Button on information page....................undefined
+Then Verify Checkout Overview page..........................................undefined
+And Success Check out page with message displayed "Your order has been dispatched, and will arrive just as fast as the pony can get there!".undefined
+]]></skipped>
+    </testcase>
+</testsuite>
